@@ -1,0 +1,101 @@
+import { Card } from "@/components/ui/card";
+import { Gift, FileSpreadsheet, ListChecks, Users, Video } from "lucide-react";
+
+const bonuses = [
+  {
+    icon: FileSpreadsheet,
+    title: "Planilha de Cálculo Automatizada",
+    description: "Calcule automaticamente todos os custos, impostos e margem de lucro antes de importar. Nunca mais erre nas contas!",
+    value: "R$ 297",
+  },
+  {
+    icon: ListChecks,
+    title: "Lista de Produtos Validados",
+    description: "Acesso a uma lista exclusiva de produtos que já foram validados e têm alta taxa de sucesso entre nossos alunos.",
+    value: "R$ 497",
+  },
+  {
+    icon: Users,
+    title: "Grupo VIP de Alunos",
+    description: "Entre para uma comunidade exclusiva onde você pode trocar experiências, tirar dúvidas e fazer networking com outros importadores.",
+    value: "R$ 197/mês",
+  },
+  {
+    icon: Video,
+    title: "Aulas Ao Vivo Mensais",
+    description: "Participe de aulas ao vivo mensais com atualizações sobre mercado, novos produtos e técnicas avançadas de importação.",
+    value: "R$ 397/mês",
+  },
+];
+
+const Bonuses = () => {
+  return (
+    <section className="py-20 bg-muted/50">
+      <div className="container mx-auto px-4">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-2 bg-accent/20 backdrop-blur-sm border border-accent/30 rounded-full px-4 py-2 mb-6">
+              <Gift className="w-5 h-5 text-accent" />
+              <span className="text-sm font-medium text-accent">BÔNUS EXCLUSIVOS</span>
+            </div>
+            
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Receba Estes Bônus{" "}
+              <span className="gradient-primary bg-clip-text text-transparent">
+                Gratuitamente
+              </span>
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Tudo o que você precisa para acelerar seus resultados
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {bonuses.map((bonus, index) => {
+              const Icon = bonus.icon;
+              return (
+                <Card
+                  key={index}
+                  className="p-6 hover:shadow-custom-lg transition-all duration-300 border-2 hover:border-accent/30 group relative overflow-hidden"
+                >
+                  {/* Value Badge */}
+                  <div className="absolute top-4 right-4 bg-accent text-accent-foreground px-3 py-1 rounded-full text-xs font-bold">
+                    Valor: {bonus.value}
+                  </div>
+
+                  <div className="flex items-start gap-4 mt-8">
+                    <div className="flex-shrink-0 w-14 h-14 rounded-xl bg-gradient-to-br from-accent/20 to-accent/10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                      <Icon className="w-7 h-7 text-accent" />
+                    </div>
+                    
+                    <div>
+                      <h3 className="text-xl font-bold mb-2 group-hover:text-accent transition-colors">
+                        {bonus.title}
+                      </h3>
+                      <p className="text-muted-foreground">
+                        {bonus.description}
+                      </p>
+                    </div>
+                  </div>
+                </Card>
+              );
+            })}
+          </div>
+
+          {/* Total Value */}
+          <div className="mt-12 text-center">
+            <Card className="inline-block p-6 bg-gradient-to-r from-primary/10 to-accent/10 border-2 border-primary/20">
+              <p className="text-sm text-muted-foreground mb-2">Valor total dos bônus:</p>
+              <p className="text-3xl font-bold text-primary mb-2">+ R$ 1.388</p>
+              <p className="text-sm font-semibold text-accent">
+                ✓ Seu por tempo limitado, sem custo adicional!
+              </p>
+            </Card>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Bonuses;
