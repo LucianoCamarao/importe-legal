@@ -1,15 +1,19 @@
 import { defineConfig } from "vite";
+import dyadComponentTagger from "@dyad-sh/react-vite-component-tagger";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
-import { componentTagger } from "lovable-tagger";
 
-// https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig(() => ({
   server: {
     host: "::",
     port: 8080,
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  preview: {
+    host: true,                     // permite acesso externo
+    port: 8080,                     // porta que o EasyPanel usará
+    allowedHosts: ["https://mneme.app.br/mnebi01vr1/"], // <<< IMPORTANTE
+  },
+  plugins: [dyadComponentTagger(), react()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
