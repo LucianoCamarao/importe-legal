@@ -8,6 +8,11 @@ export default defineConfig(() => ({
     host: "::",
     port: 8080,
   },
+  preview: {
+    host: true,                     // permite acesso externo
+    port: 8080,                     // porta que o EasyPanel usará
+    allowedHosts: ["https://lp.mneme.app.br/"], // <<< IMPORTANTE
+  },
   plugins: [dyadComponentTagger(), react()],
   resolve: {
     alias: {
