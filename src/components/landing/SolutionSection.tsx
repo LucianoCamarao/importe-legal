@@ -38,7 +38,7 @@ const SolutionSection = () => {
               
               <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
                 Transforme R$ 1.000 em um{" "}
-                <span className="gradient-hero bg-clip-text text-transparent">
+                <span className="text-primary">
                   Negócio de 6 Dígitos
                 </span>
               </h2>
