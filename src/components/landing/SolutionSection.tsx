@@ -32,7 +32,7 @@ const SolutionSection = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Side - Content */}
             <div>
-              <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-6">
+              <div className="inline-block bg-primary/20 text-primary-light px-4 py-2 rounded-full text-sm font-semibold mb-6">
                 A SOLUÇÃO QUE VOCÊ PROCURAVA
               </div>
               
@@ -80,7 +80,7 @@ const SolutionSection = () => {
                 <div className="text-sm opacity-90">Investimento Inicial</div>
               </div>
               
-              <div className="bg-gradient-to-br from-accent to-yellow-500 p-6 rounded-2xl shadow-custom-lg text-accent-foreground">
+              <div className="bg-gradient-to-br from-accent to-yellow-500 p-6 rounded-2xl shadow-custom-lg text-gray-900">
                 <div className="text-4xl font-bold mb-2">7 dias</div>
                 <div className="text-sm opacity-90">China até Brasil</div>
               </div>
