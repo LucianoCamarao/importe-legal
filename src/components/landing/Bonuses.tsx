@@ -3,10 +3,28 @@ import { Gift, FileSpreadsheet, ListChecks, Users, Video } from "lucide-react";
 
 const bonuses = [
   {
-    icon: Cerebro,
-    title: "IA Especialista em Importação Simplificada",
-    description: "Você terá, por três meses, disponível uma IA especialista em importação simplificada para você tirar todas suas dúvidas referente aos seus processos.",
-    value: "R$ 180/mês",
+    icon: FileSpreadsheet,
+    title: "Planilha de Cálculo Automatizada",
+    description: "Calcule automaticamente todos os custos, impostos e margem de lucro antes de importar. Nunca mais erre nas contas!",
+    value: "R$ 297",
+  },
+  {
+    icon: ListChecks,
+    title: "Lista de Produtos Validados",
+    description: "Acesso a uma lista exclusiva de produtos que já foram validados e têm alta taxa de sucesso entre nossos alunos.",
+    value: "R$ 497",
+  },
+  {
+    icon: Users,
+    title: "Grupo VIP de Alunos",
+    description: "Entre para uma comunidade exclusiva onde você pode trocar experiências, tirar dúvidas e fazer networking com outros importadores.",
+    value: "R$ 197/mês",
+  },
+  {
+    icon: Video,
+    title: "Aulas Ao Vivo Mensais",
+    description: "Participe de aulas ao vivo mensais com atualizações sobre mercado, novos produtos e técnicas avançadas de importação.",
+    value: "R$ 397/mês",
   },
 ];
 
