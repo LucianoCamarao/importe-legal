@@ -47,7 +47,7 @@ const HowItWorks = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Como Funciona a{" "}
-            <span className="gradient-primary bg-clip-text text-transparent">
+            <span className="text-primary">
               Metodologia?
             </span>
           </h2>
