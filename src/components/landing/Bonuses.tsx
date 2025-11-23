@@ -1,30 +1,12 @@
 import { Card } from "@/components/ui/card";
-import { Gift, FileSpreadsheet, ListChecks, Users, Video } from "lucide-react";
+import { Gift, Bot } from "lucide-react";
 
 const bonuses = [
   {
-    icon: FileSpreadsheet,
-    title: "Planilha de Cálculo Automatizada",
-    description: "Calcule automaticamente todos os custos, impostos e margem de lucro antes de importar. Nunca mais erre nas contas!",
-    value: "R$ 297",
-  },
-  {
-    icon: ListChecks,
-    title: "Lista de Produtos Validados",
-    description: "Acesso a uma lista exclusiva de produtos que já foram validados e têm alta taxa de sucesso entre nossos alunos.",
-    value: "R$ 497",
-  },
-  {
-    icon: Users,
-    title: "Grupo VIP de Alunos",
-    description: "Entre para uma comunidade exclusiva onde você pode trocar experiências, tirar dúvidas e fazer networking com outros importadores.",
-    value: "R$ 197/mês",
-  },
-  {
-    icon: Video,
-    title: "Aulas Ao Vivo Mensais",
-    description: "Participe de aulas ao vivo mensais com atualizações sobre mercado, novos produtos e técnicas avançadas de importação.",
-    value: "R$ 397/mês",
+    icon: Bot,
+    title: "IA Especialista em Importação Simplificada",
+    description: "Você terá direito, por três meses, a uma IA especialista em processos na modalidade \"Importação Simplificada\" para responder todas as suas questões.",
+    value: "R$ 180",
   },
 ];
 
@@ -40,17 +22,18 @@ const Bonuses = () => {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Receba Estes Bônus{" "}
+              Receba Este Bônus{" "}
               <span className="text-primary">
                 Gratuitamente
               </span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              Tudo o que você precisa para acelerar seus resultados
+              Suporte especializado para acelerar seus resultados
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="flex justify-center">
+            <div className="w-full max-w-2xl">
             {bonuses.map((bonus, index) => {
               const Icon = bonus.icon;
               return (
@@ -80,13 +63,14 @@ const Bonuses = () => {
                 </Card>
               );
             })}
+            </div>
           </div>
 
           {/* Total Value */}
           <div className="mt-12 text-center">
             <Card className="inline-block p-6 bg-gradient-to-r from-primary/10 to-accent/10 border-2 border-primary/20">
-              <p className="text-sm text-muted-foreground mb-2">Valor total dos bônus:</p>
-              <p className="text-3xl font-bold text-primary mb-2">+ R$ 1.388</p>
+              <p className="text-sm text-muted-foreground mb-2">Valor do bônus:</p>
+              <p className="text-3xl font-bold text-primary mb-2">+ R$ 180</p>
               <p className="text-sm font-semibold text-accent">
                 ✓ Seu por tempo limitado, sem custo adicional!
               </p>
