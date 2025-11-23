@@ -4,7 +4,7 @@ import { Quote, Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Maria Silva",
+    name: "Brenda Lopes",
     role: "Ex-desempregada, hoje importadora",
     content: "Comecei com apenas R$ 2.000 e no primeiro mês já tinha ROI de 266%. Hoje faturei R$ 45.000 no último trimestre!",
     result: "ROI de 266% no primeiro mês",
@@ -12,7 +12,7 @@ const testimonials = [
     stars: 5,
   },
   {
-    name: "João Santos",
+    name: "Thales Sandro",
     role: "Ex-vendedor, agora empreendedor",
     content: "Estava cansado de trabalhar para ganhar pouco. Segui o método à risca e em 3 meses já tinha meu primeiro container. Mudou minha vida!",
     result: "Primeiro container em 3 meses",
@@ -20,7 +20,7 @@ const testimonials = [
     stars: 5,
   },
   {
-    name: "Ana Oliveira",
+    name: "Gislaine Vieira",
     role: "Professora e importadora nas horas vagas",
     content: "Consegui manter meu emprego e começar minha importadora. O método simplificado me permitiu fazer tudo sem complicação.",
     result: "Renda extra de R$ 8.000/mês",
@@ -28,7 +28,7 @@ const testimonials = [
     stars: 5,
   },
   {
-    name: "Carlos Mendes",
+    name: "Pedro Oliveira",
     role: "Começou do zero há 6 meses",
     content: "Nunca imaginei que seria tão acessível. A importação simplificada realmente funciona e não precisa de despachante!",
     result: "Lucro de R$ 15.000 em 6 meses",
