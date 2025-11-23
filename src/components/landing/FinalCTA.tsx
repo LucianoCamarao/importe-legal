@@ -21,7 +21,7 @@ const FinalCTA = () => {
           {/* Headline */}
           <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Está Pronto Para Mudar de{" "}
-            <span className="gradient-primary bg-clip-text text-transparent">
+            <span className="text-primary">
               Vida?
             </span>
           </h2>
