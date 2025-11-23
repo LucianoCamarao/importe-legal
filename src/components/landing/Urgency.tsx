@@ -80,8 +80,8 @@ const Urgency = () => {
 
               {/* Warning */}
               <div className="bg-accent/10 border-l-4 border-accent rounded-r-lg p-4 text-sm">
-                <p className="font-semibold text-foreground mb-1">⚠️ Atenção:</p>
-                <p className="text-muted-foreground">
+                <p className="font-semibold text-accent mb-1">⚠️ Atenção:</p>
+                <p className="text-foreground">
                   Após o preenchimento das vagas, o acesso será fechado até o próximo mês. 
                   O preço também voltará ao valor integral de R$ 2.997.
                 </p>
