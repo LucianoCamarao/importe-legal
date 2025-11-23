@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             {/* Company Info */}
             <div>
-              <h3 className="text-xl font-bold mb-4 text-foreground">Importador do Zero</h3>
+              <h3 className="text-xl font-bold mb-4 text-foreground">Mneme</h3>
               <p className="text-sm text-muted-foreground mb-4">
                 O método mais completo e acessível para você começar sua importadora legalizada do zero.
               </p>
