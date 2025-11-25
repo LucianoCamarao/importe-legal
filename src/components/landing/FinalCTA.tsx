@@ -33,12 +33,11 @@ const FinalCTA = () => {
           {/* Benefits List */}
           <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto mb-10 text-left">
             {[
-              "Método passo a passo validado por +2.000 alunos",
               "Comece com apenas R$ 1.000 de investimento",
               "100% legalizado e sem complicação",
               "Garantia incondicional de 30 dias",
               "Acesso vitalício + atualizações gratuitas",
-              "Bônus no valor de R$ 1.388 inclusos",
+              "Bônus exclusivo de IA Especialista incluído",
             ].map((benefit, index) => (
               <div key={index} className="flex items-center gap-3">
                 <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />

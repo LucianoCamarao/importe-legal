@@ -92,15 +92,6 @@ const Testimonials = () => {
           ))}
         </div>
 
-        {/* Additional proof */}
-        <div className="mt-16 text-center">
-          <div className="inline-flex items-center gap-2 bg-accent/10 backdrop-blur-sm border border-accent/30 rounded-full px-6 py-3">
-            <span className="text-2xl">🎉</span>
-            <span className="font-semibold text-foreground">
-              +2.000 alunos já mudaram de vida com nosso método
-            </span>
-          </div>
-        </div>
       </div>
     </section>
   );

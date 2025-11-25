@@ -3,10 +3,6 @@ import { CheckCircle2, TrendingUp, Shield, Zap } from "lucide-react";
 
 const benefits = [
   {
-    icon: CheckCircle2,
-    text: "Método passo a passo validado por +2.000 alunos",
-  },
-  {
     icon: TrendingUp,
     text: "Comece com apenas R$ 1.000 usando importação simplificada",
   },
@@ -86,8 +82,8 @@ const SolutionSection = () => {
               </div>
               
               <div className="bg-gradient-to-br from-green-500 to-emerald-600 p-6 rounded-2xl shadow-custom-lg text-white">
-                <div className="text-4xl font-bold mb-2">+2.000</div>
-                <div className="text-sm opacity-90">Alunos Ativos</div>
+                <div className="text-4xl font-bold mb-2">100%</div>
+                <div className="text-sm opacity-90">Legalizado</div>
               </div>
             </div>
           </div>
