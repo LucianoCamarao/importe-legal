@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, PlayCircle } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-import.jpg";
 import { motion } from "framer-motion";
 
@@ -60,12 +60,12 @@ const Hero = () => {
             <strong className="text-accent">100% a 400% de ROI</strong> sem intermediários
           </motion.p>
 
-          {/* CTA Buttons */}
+          {/* CTA Button */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+            className="flex justify-center"
           >
             <Button 
               size="xl" 
@@ -75,14 +75,6 @@ const Hero = () => {
             >
               Quero Começar Agora
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button 
-              size="xl" 
-              variant="outline"
-              className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white hover:text-foreground"
-            >
-              <PlayCircle className="mr-2" />
-              Assistir Apresentação
             </Button>
           </motion.div>
 
