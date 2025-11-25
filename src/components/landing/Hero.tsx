@@ -91,7 +91,7 @@ const Hero = () => {
                   <div key={i} className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-secondary border-2 border-white" />
                 ))}
               </div>
-              <span className="text-gray-200">+2.000 alunos</span>
+              <span className="text-gray-200">Transformando vidas através da importação</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-accent">★★★★★</span>
