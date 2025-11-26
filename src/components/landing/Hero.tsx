@@ -89,8 +89,10 @@ const Hero = () => {
           >
             <div className="flex items-center gap-2">
               <div className="flex -space-x-2">
-                {[1, 2, 3, 4].map((i) => (
-                  <div key={i} className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-secondary border-2 border-white" />
+                {["BL", "TS", "GV", "PO"].map((initials) => (
+                  <div key={initials} className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-secondary border-2 border-white flex items-center justify-center text-white text-xs font-bold">
+                    {initials}
+                  </div>
                 ))}
               </div>
               <span className="text-gray-200">Transformando vidas através da importação</span>
