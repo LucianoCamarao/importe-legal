@@ -56,8 +56,10 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto"
           >
-            Aprenda a montar sua importadora legalizada do zero e conquiste margens de{" "}
-            <strong className="text-accent">100% a 400% de ROI</strong> sem intermediários
+            Você tem de <span className="text-yellow-400 font-semibold">acreditar</span> apenas em você, na{" "}
+            <span className="text-yellow-400 font-semibold">sua</span> capacidade,{" "}
+            <span className="text-yellow-400 font-semibold">encontrar</span> a mercadoria diretamente do fornecedor na China, colocar no MercadoLivre ou Shopee e{" "}
+            <span className="text-yellow-400 font-semibold">acompanhar</span> as vendas.
           </motion.p>
 
           {/* CTA Button */}
