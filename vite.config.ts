@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => ({
   preview: {
     host: true,
     port: 8080,
-    allowedHosts: ["lp.mneme.app.br"],
+    allowedHosts: ["site-lp-ebook-importacao.snnxl0.easypanel.host"],
   },
   plugins: [
     react(),
