@@ -53,8 +53,8 @@ const Urgency = () => {
                 <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                   <div>
                     <p className="text-sm text-muted-foreground mb-2">De:</p>
-                    <div className="flex items-center gap-2 mb-2">
-                      <span className="text-2xl font-bold text-destructive">✗</span>
+                    <div className="flex items-center gap-3 mb-2">
+                      <span className="text-4xl font-extrabold text-red-600">✗</span>
                       <p className="text-2xl text-muted-foreground line-through">R$ 2.997</p>
                     </div>
                     <p className="text-sm text-primary font-semibold mb-4">Por apenas:</p>
